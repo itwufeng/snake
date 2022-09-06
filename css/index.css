@@ -1,0 +1,85 @@
+body{
+    overflow: hidden;
+}
+
+.content{
+    width: 640px;
+    height: 640px;
+    margin: 100px auto;
+    top: auto;
+    position: relative;
+}
+
+.btn{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(80, 171, 137, 0.3);
+    z-index: 2;
+}
+
+.btn button{
+    background: none;
+    border: none;
+    background-size: 100% 100%;
+    cursor: pointer;
+    outline: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.startBtn button{
+    width: 200px;
+    height: 150px;
+    background-image: url(../images/start.webp) ;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 50%;
+    margin-left: -100px;
+    margin-top: -75px;
+}
+
+.pauseBtn{
+    display: none;
+}
+
+.pauseBtn button{
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/pause.webp);
+    background-size: cover;
+    margin-left: -35px;
+    margin-top: -35px;
+    border-radius: 50%;
+}
+
+#snakeWrap{
+    width: 600px;
+    height: 600px;
+    background: #225675;
+    border: 20px solid #7dd9ff;
+    position: relative;
+}
+
+
+
+.snakeHead{
+    background-image: url(../images/head.webp);
+    border-radius: 40%;
+    background-size: cover;
+}
+
+.snakeBody{
+    background-image: url(../images/body.webp);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.food{
+    background-image: url(../images/appel.webp);
+    background-size: cover;
+
+}
